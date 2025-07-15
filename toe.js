@@ -22,12 +22,7 @@ boxes.forEach(box=>{
         infoText.textContent=`Turn for ${currentTurn}`;
     })
 })
-
-/*************************************************************************
- * STEP 3 – Part 1
- * --------------------------------------------------
- * Define every winning combination of box indices.
- *************************************************************************/
+// /define winning patterns/
 
 const winPatterns = [
   [0, 1, 2], // top row
