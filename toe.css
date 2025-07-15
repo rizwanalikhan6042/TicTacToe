@@ -96,6 +96,7 @@ nav ul {
 }
 
 #reset {
+    margin-left: 15px;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
@@ -121,4 +122,16 @@ nav ul {
 /* Show the image when active via JS */
 .imgBox img.active {
     display: block;
+}
+
+.winner{
+    background-color:#c8e6c9 !important;   /* light green */
+    box-shadow:inset 0 0 10px rgba(0,0,0,0.25);
+    animation:pulse 0.35s ease-in-out 4 alternate;
+}
+
+/* small pulse animation */
+@keyframes pulse{
+    from{ transform:scale(1);   }
+    to  { transform:scale(1.1); }
 }
